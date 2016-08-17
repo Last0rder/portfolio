@@ -129,6 +129,8 @@ h3,
 /*main*/
 
 #main-container {
+	
+	clear: both;
 	padding-top: 130px;
 }
 .main-section {
@@ -172,8 +174,7 @@ h3,
 	font-weight: 300;
 }
 .auth-image {
-	width: 200px;
-	height: auto;
+	width: 390px;
 	margin-top: 10px;
 	float: left;
 	margin-right: 25px;
@@ -212,4 +213,131 @@ input[type=submit] {
 	font-size: 18px;
 	padding: 10px 30px;
 	cursor: pointer;
+}
+
+@media screen and (max-width: 980px) {
+
+#logo {
+	margin-left: 150px;
+}
+
+nav {
+	margin-right: 50px;
+}
+
+.auth-image {
+	width: 390px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	float: left;
+	margin-right: 25px;
+}
+
+.main-section {
+	background: #fff;
+	padding: 30px;
+	margin: 0 0 20px 150px;
+	width: 100%;
+	max-width: 450px;
+	float: left;
+	border: 1px solid #ddd;
+}
+
+.sidebar {
+
+margin-right: 50px;
+
+}
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+#logo {
+	margin-left: 20px;
+}
+
+
+#main-container {
+
+}
+
+.main-section {
+	
+	margin-left: 20px;
+	width: 100%;
+	max-width: 728px;
+}
+
+.sidebar {
+	float:left;
+	margin-left: 20px;
+	margin-right: 0px;
+	width: 100%;
+	max-width: 728px;
+}
+
+.auth-image {
+	width: 350px;
+	margin-top: 10px;
+	float: left;
+	margin-right: 25px;
+}
+
+@media screen and (max-width: 640px) {
+
+
+#masthead {
+	margin: 0px;
+	padding:0px;
+	width: 100;
+	overflow: hidden;
+	position: static;
+}
+
+#logo {
+	margin:0;
+	width: 100%;
+	max-width: 640;
+}
+
+nav {
+	clear: both;
+	margin: 0px;
+	width: 100%;
+	padding: 10px;
+
+}
+
+nav a {
+	width: 30%;
+ 	float: center;
+	text-align: center;
+}
+
+#main-container {
+	padding-top: 0px;
+}
+
+.main-section {
+	
+	margin: 20px;
+	width: 95%;
+	max-width: 600px;
+
+}
+
+.sidebar {
+	
+	width: 100%;
+	max-width: 600px;
+}
+
+.auth-image {
+	width: 525px;
+	
+	margin-top: 10px;
+	float: left;
+	margin-right: 25px;
 }
